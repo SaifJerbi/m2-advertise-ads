@@ -1,0 +1,44 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "title",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cover",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "advertiser",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "gameConfigurationId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "gameId",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20171102132443",
+    "dto": "no",
+    "service": "serviceClass",
+    "entityTableName": "ad",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "m2advertiseAds",
+    "searchEngine": false
+}

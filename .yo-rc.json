@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.m2advertise.ads"
+    },
+    "jhipsterVersion": "4.9.0",
+    "baseName": "m2advertiseAds",
+    "packageName": "com.m2advertise.ads",
+    "packageFolder": "com/m2advertise/ads",
+    "serverPort": "8081",
+    "authenticationType": "uaa",
+    "uaaBaseName": "m2advertiseUAA",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "c5bc06146af8432a5633a5c87fc4bd48360d99eb",
+    "enableTranslation": false,
+    "applicationType": "microservice",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "clientPackageManager": "yarn"
+  }
+}
